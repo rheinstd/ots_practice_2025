@@ -17,7 +17,7 @@ def get_system_info():
 # Вывод информации для проверки
 if __name__ == "__main__":
     info = get_system_info()
-    print("Лабораторная №1")
+    print("Лабораторная работа №1")
     print("Информация о системе:")
     for key, value in info.items():
         print(f"- {key}: {value}")
