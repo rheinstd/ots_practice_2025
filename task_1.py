@@ -1,6 +1,6 @@
 # Лабораторная №1: Первичная инициализация
 # Курс: Основы теории систем
-# Студент: [Ваше ФИО]
+# Студент: Яруллин Руслан Харисович
 
 def get_system_info():
     """
@@ -8,15 +8,16 @@ def get_system_info():
     """
     # TODO: Заполните словарь вашими реальными данными
     system_info = {
-        "student_name": "Иванов Иван Иванович",
-        "academic_group": "ИВТИИбд-11",
-        "github_link": "https://github.com/ivanov_ivan"
+        "student_name": "Яруллин Руслан Харисович",
+        "academic_group": "ИВТИИбд-12",
+        "github_link": "https://github.com/rheinstd"
     }
     return system_info
 
 # Вывод информации для проверки
 if __name__ == "__main__":
     info = get_system_info()
+    print("Лабораторная №1")
     print("Информация о системе:")
     for key, value in info.items():
         print(f"- {key}: {value}")
